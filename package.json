@@ -1,0 +1,30 @@
+{
+  "name": "es6-webpack-learnings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": [
+    "> 1%"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "babel-node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "chai": "^4.1.2",
+    "chalk": "^2.3.0",
+    "color": "^2.0.1",
+    "eslint": "^4.12.1",
+    "eslint-plugin-compat": "^2.1.0",
+    "mocha": "^4.1.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
