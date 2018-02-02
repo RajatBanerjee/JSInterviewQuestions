@@ -6,4 +6,5 @@ var cls =  {
     value :"asd"
 }
 
+//explicitly passing the context
 print.call(cls)
